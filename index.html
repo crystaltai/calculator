@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- To utilize Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/f99d80629d.js" crossorigin="anonymous"></script>
+    <!-- To utilize Readex Pro font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- SECTION 1: OUTSIDE CALCULATOR CONTAINER  -->
+    <div class="calculator-container">
+      <!-- SECTION 2: CALCULATION SCREENS  -->
+      <div class="calculation-screens">
+        <div class="calculation-tracker"></div>
+        <div class="calculation-results"></div>
+      </div>
+      <!-- SECTION 3: NUMBERPAD  -->
+      <div class="grid-container">
+        <!-- first row -->
+        <div class="button button-lg button-left" id="clear">CLEAR</div>
+        <div class="button button-inner">1</div>
+        <div class="button button-sm button-right" id="divide">÷</div>
+        <!-- second row -->
+        <div class="button button-sm button-left">7</div>
+        <div class="button button-inner">8</div>
+        <div class="button button-inner">9</div>
+        <div class="button button-right" id="multiply">x</div>
+        <!-- third row -->
+        <div class="button button-left">4</div>
+        <div class="button button-inner">5</div>
+        <div class="button button-inner">6</div>
+        <div class="button button-right" id="minus">-</div>
+        <!-- fourth row -->
+        <div class="button button-left">1</div>
+        <div class="button button-inner">2</div>
+        <div class="button button-inner">3</div>
+        <div class="button button-right" id="add">+</div>
+        <!-- fifth row -->
+        <div class="button button-lg button-left">0</div>
+        <div class="button button-inner">.</div>
+        <div class="button button-right" id="equal">=</div>
+      </div>
+    </div>
+
+    <!-- SECTION X: FOOTER -->
+    <div class="footer">
+      <h3>
+        Built by Crystal Tai
+        <a href="https://github.com/crystaltai/calculator"
+          ><i id="github" class="fab fa-github"></i
+        ></a>
+      </h3>
+    </div>
+
+    <!-- Javascript script -->
+    <script src="app.js"></script>
+  </body>
+</html>

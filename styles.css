@@ -49,6 +49,10 @@ body {
   color: #8e8e8e;
 }
 
+.button:hover {
+  background-color: #f9f9f9;
+}
+
 .button-inner {
   border-left: 1px solid #e8e8e8;
 }
@@ -60,6 +64,10 @@ body {
 #clear {
   color: white;
   background-color: #fd716a;
+}
+
+#clear:hover {
+  filter: brightness(97%);
 }
 
 #divide {
@@ -81,6 +89,10 @@ body {
 #equal {
   color: white;
   background-color: #04c3ab;
+}
+
+#equal:hover {
+  filter: brightness(97%);
 }
 
 /* SECTION X: FOOTER*/

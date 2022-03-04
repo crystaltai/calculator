@@ -11,7 +11,6 @@ body {
 /* SECTION 1: OUTSIDE CALCULATOR CONTAINER */
 .calculator-container {
   width: 250px;
-  /* height: 390px; */
   background-color: white;
   display: block;
   position: relative;
@@ -21,10 +20,25 @@ body {
 
 /* SECTION 2: CALCULATION SCREENS */
 .calculation-screens {
-  display: block;
+  display: flex;
   margin: 0 auto;
   background-color: #ffffff;
-  height: 120px;
+  height: 80px;
+  padding: 20px 20px 20px 20px;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.calculation-tracker {
+  color: #a5b1c2;
+  font-size: 16px;
+}
+
+.calculation-results {
+  color: #4b6584;
+  font-size: 30px;
 }
 
 /* SECTION 3: NUMBERPAD */
@@ -45,12 +59,17 @@ body {
 }
 
 .button {
-  border-top: 1px solid #e8e8e8;
+  border: 1px solid #e8e8e8;
   color: #8e8e8e;
+  cursor: pointer;
 }
 
 .button:hover {
-  background-color: #f9f9f9;
+  filter: brightness(98%);
+}
+
+.button:active {
+  filter: brightness(90%);
 }
 
 .button-inner {
@@ -68,6 +87,10 @@ body {
 
 #clear:hover {
   filter: brightness(97%);
+}
+
+#clear:active {
+  filter: brightness(92%);
 }
 
 #divide {
@@ -95,7 +118,11 @@ body {
   filter: brightness(97%);
 }
 
-/* SECTION X: FOOTER*/
+#equal:active {
+  filter: brightness(92%);
+}
+
+/* SECTION 4: FOOTER*/
 .footer {
   display: flex;
   justify-content: center;

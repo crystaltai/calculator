@@ -21,36 +21,34 @@
     <div class="calculator-container">
       <!-- SECTION 2: CALCULATION SCREENS  -->
       <div class="calculation-screens">
-        <div class="calculation-tracker" id="formula">1 + 2</div>
+        <div class="calculation-formula" id="formula"></div>
         <div class="calculation-results" id="results"></div>
       </div>
       <!-- SECTION 3: NUMBERPAD  -->
       <div class="grid-container">
         <!-- first row -->
-        <button class="button button-lg button-left" id="clear">CLEAR</button>
-        <button class="button button-inner" id="delete">
-          <i class="fa-solid fa-delete-left"></i>
-        </button>
-        <button class="button button-sm button-right" id="divide">÷</button>
+        <button class="button-lg" id="clear">CLEAR</button>
+        <button id="delete"><i class="fa-solid fa-delete-left"></i></button>
+        <button class="operator" id="divide">÷</button>
         <!-- second row -->
-        <button class="button button-sm button-left" id="seven">7</button>
-        <button class="button button-sm button-left" id="eight">8</button>
-        <button class="button button-sm button-left" id="nine">9</button>
-        <button class="button button-right" id="multiply">x</button>
+        <button class="digit" id="seven">7</button>
+        <button class="digit" id="eight">8</button>
+        <button class="digit" id="nine">9</button>
+        <button class="operator" id="multiply">x</button>
         <!-- third row -->
-        <button class="button button-sm button-left" id="four">4</button>
-        <button class="button button-sm button-left" id="five">5</button>
-        <button class="button button-sm button-left" id="six">6</button>
-        <button class="button button-right" id="minus">-</button>
+        <button class="digit" id="four">4</button>
+        <button class="digit" id="five">5</button>
+        <button class="digit" id="six">6</button>
+        <button class="operator" id="minus">-</button>
         <!-- fourth row -->
-        <button class="button button-sm button-left" id="one">1</button>
-        <button class="button button-sm button-left" id="two">2</button>
-        <button class="button button-sm button-left" id="three">3</button>
-        <button class="button button-right" id="add">+</button>
+        <button class="digit" id="one">1</button>
+        <button class="digit" id="two">2</button>
+        <button class="digit" id="three">3</button>
+        <button class="operator" id="add">+</button>
         <!-- fifth row -->
-        <button class="button button-lg button-left" id="zero">0</button>
-        <button class="button button-sm button-left" id="decimal">.</button>
-        <button class="button button-right" id="equal">=</button>
+        <button class="digit button-lg" id="zero">0</button>
+        <button id="decimal">.</button>
+        <button id="equal">=</button>
       </div>
     </div>
 

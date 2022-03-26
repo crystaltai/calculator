@@ -4,6 +4,8 @@ Project to create Calculator using only HTML, CSS and Vanilla JS
 
 **🔗 Live preview:** https://crystaltai.github.io/calculator/
 
+![](https://github.com/crystaltai/calculator/blob/main/calculator-demo.gif)
+
 ## Built with
 
 ### Technologies
